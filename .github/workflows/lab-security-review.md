@@ -15,7 +15,7 @@ tools:
     toolsets: [repos]
     allowed: [get_file_contents]
     allowed-repos: ["${{ github.repository }}"]
-    min-integrity: approved
+    min-integrity: none
 safe-outputs:
   create-issue:
     title-prefix: "[Lab security review] "
